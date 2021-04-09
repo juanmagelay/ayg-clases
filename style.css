@@ -1,0 +1,185 @@
+/*general*/
+
+html{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 2em;
+    padding: 3em 8.6em 2em 8.6em;
+    box-shadow: 0px 3px 6px #0000001C;
+    top:0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+button{
+    width: 18em;
+    height: 2.6em;
+    border-radius: 19px;
+    border-style: none;
+    background: #34B2E0 0% 0% no-repeat padding-box;
+}
+
+section{
+    padding: 8em;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*nav*/
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+nav li{
+    padding-left: 1.5em;
+    box-sizing: border-box;
+}
+
+nav a{
+    color:#000;
+}
+
+
+/*Home*/
+
+
+#home{
+    background: #F1F9FF 0% 0% no-repeat padding-box;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#homeText{
+    width: 22em;
+    margin-right: 12em;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+#homeButton{
+    margin-top: 2.8em;
+}
+
+/*Clases de apoyo*/
+
+#clasesApoyo, #testimonials, #igIntro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clasesApoyo p {
+    text-align: center;
+}
+
+#clasesApoyo article{
+    width: 100%;
+}
+
+.apoyo_div{
+    width: 17.3em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#encuentraProfesor{
+    margin-top: 3.5em;
+    width: 100%;
+    background: #C1EAF7 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    padding: 3.7em 4.6em 2.25em 4.6em; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#apoyoButton{
+    margin-top: 2em;
+}
+
+/*Testimonials*/
+
+#carouselTestimonials {
+    width: 60%;
+}
+
+#carouselTestimonials button {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*instagram*/
+
+#instagram{
+    background: #F1F9FF 0% 0% no-repeat padding-box;
+}
+
+#post{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ig_post{
+    width: 17.4em;
+    height: 17.8em;
+    margin: 5em 0 10em 0;
+}
+
+
+
+/*Footer*/
+
+footer{
+    background: #256EA3 0% 0% no-repeat padding-box;
+    padding: 5em 8em 5em 8em;
+    color:#fff;
+}
+
+
+#footerArriba{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid 1px white;
+    padding-bottom: 1em;
+}
+
+#footerArriba1{
+    width: 40%;
+}
+
