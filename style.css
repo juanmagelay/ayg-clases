@@ -1,32 +1,60 @@
 /*general*/
-
+/*
 html{
     width: 100%;
     height: 100vh;
     margin: 0;
 }
-
+*/
 body{
     margin: 0;
     font-family: Roboto;
+    background-color: #fff;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    height: 2em;
-    padding: 3em 8.6em 2em 8.6em;
-    box-shadow: 0px 3px 6px #0000001C;
-    top:0;
+/*navbar*/
+
+.navbar{
+    text-transform: uppercase;
+    color: #353638;
+    font-weight: bold;
 }
+
+.navbar-toggler{
+    border: none;
+    width: 27px;
+    height: 18px;
+    padding: 0;
+}
+
+.navbar-toggler span{
+    width: 27px;
+    height: 18px;
+    color: #003169;
+}
+
 
 ul{
     list-style-type: none;
     padding: 0;
 }
+/*
+#nav{
+    display: flex;
+    box-shadow: 0px 3px 6px #0000001C;
+    top:0;
+    height: 3em;
+    margin: 0;
+    padding: 3em 8.6em 2em 8.6em;
+}
 
+#logo-container{
+    height: 50%;
+}
+
+.navbar-brand{
+    height: 80%;
+}
 button{
     width: 18em;
     height: 2.6em;
@@ -46,9 +74,11 @@ p{
 a{
     text-decoration: none;
 }
+*/
+
 
 /*nav*/
-
+/*
 nav ul{
     display: flex;
     flex-direction: row;
@@ -64,11 +94,11 @@ nav li{
 nav a{
     color:#000;
 }
-
+*/
 
 /*Home*/
 
-
+/*
 #home{
     background: #F1F9FF 0% 0% no-repeat padding-box;
 }
@@ -96,9 +126,10 @@ h1{
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 19px;
 }
+*/
 
 /*Clases de apoyo*/
-
+/*
 #clasesApoyo, #testimonials, #igIntro{
     display: flex;
     align-items: center;
@@ -136,9 +167,11 @@ h1{
 #apoyoButton{
     margin-top: 2em;
 }
+*/
+
 
 /*Testimonials*/
-
+/*
 #carouselTestimonials {
     width: 60%;
 }
@@ -147,9 +180,10 @@ h1{
     top: 50%;
     transform: translateY(-50%);
 }
+*/
 
 /*instagram*/
-
+/*
 #instagram{
     background: #F1F9FF 0% 0% no-repeat padding-box;
 }
@@ -164,11 +198,11 @@ h1{
     height: 17.8em;
     margin: 5em 0 10em 0;
 }
-
+*/
 
 
 /*Footer*/
-
+/*
 footer{
     background: #256EA3 0% 0% no-repeat padding-box;
     padding: 5em 8em 5em 8em;
@@ -187,4 +221,4 @@ footer{
 #footerArriba1{
     width: 40%;
 }
-
+*/
