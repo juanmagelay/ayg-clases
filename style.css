@@ -1,53 +1,82 @@
-/*general*/
-/*
-html{
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-}
-*/
-body{
+/*General*/
+
+body {
     margin: 0;
     font-family: Roboto;
     background-color: #fff;
 }
 
-/*navbar*/
+a {
+    text-decoration: none;
+}
 
-.navbar{
+button {
+    width: 18em;
+    height: 2.6em;
+    border-radius: 19px;
+    border-style: none;
+    background: #fff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 19px;
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Header*/
+.navbar {
     text-transform: uppercase;
     color: #353638;
     font-weight: bold;
     padding: 0;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
     width: 27px;
     height: 18px;
     padding: 0;
+    background-color: none;
+    box-shadow: none;
 }
 
-.navbar-toggler span{
+.navbar-toggler span {
     width: 27px;
     height: 18px;
     color: #003169;
 }
 
 
-ul{
-    list-style-type: none;
-    padding: 0;
-}
-/*
-button{
-    width: 18em;
-    height: 2.6em;
-    border-radius: 19px;
-    border-style: none;
-    background: #34B2E0 0% 0% no-repeat padding-box;
+/*Home*/
+#home {
+    background-image: url("/assets/img/background.png");
+    height: fit-content;
 }
 
+#home .container {
+    padding: 40px;
+    color: #fff;
+}
+
+#home .container:first-child {
+    padding-bottom: 0;
+}
+
+#home .container h1 {
+    font-size: x-large;
+}
+
+#home .container p {
+    font-size: small;
+}
+
+
+
+
+/*
 section{
     padding: 8em;
 }
@@ -56,61 +85,25 @@ p{
     margin: 0;
 }
 
-a{
-    text-decoration: none;
-}
+
 */
 
 
-/*nav*/
 /*
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-}
-
-nav li{
-    padding-left: 1.5em;
-    box-sizing: border-box;
-}
-
-nav a{
-    color:#000;
-}
-*/
-
-/*Home*/
-
-/*
-#home{
-    background: #F1F9FF 0% 0% no-repeat padding-box;
-}
-
 article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#homeText{
-    width: 22em;
-    margin-right: 12em;
-}
+
 
 h1{
     margin-top: 0;
     font-size: 1.2em;
 }
 
-#homeButton{
-    margin-top: 2.8em;
-    color: #636569;
-    background-color: #FFFFFF;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 19px;
-}
+
 */
 
 /*Clases de apoyo*/
