@@ -1,5 +1,4 @@
 /*General*/
-
 body {
     margin: 0;
     font-family: Roboto;
@@ -8,6 +7,26 @@ body {
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h3 {
+    color: #4682B4;
+    font-size: large;
+    text-align: center;
+}
+
+h4 {
+    color: #4682B4;
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    font-size: small;
 }
 
 button {
@@ -25,6 +44,7 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
 
 /*Header*/
 .navbar {
@@ -50,7 +70,7 @@ ul {
 }
 
 
-/*Home*/
+/*Home first section*/
 #home {
     background-image: url("/assets/img/background.png");
     height: fit-content;
@@ -63,14 +83,6 @@ ul {
 
 #home .container:first-child {
     padding-bottom: 0;
-}
-
-#home .container h1 {
-    font-size: x-large;
-}
-
-#home .container p {
-    font-size: small;
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -87,29 +99,22 @@ ul {
     }
 }
 
+
 /*Clases de apoyo*/
-/*
-#clasesApoyo, #testimonials, #igIntro{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+#clasesApoyo, #testimonials, #igIntro {
+    padding-top: 30px;
 }
 
 #clasesApoyo p {
     text-align: center;
 }
 
-#clasesApoyo article{
-    width: 100%;
+.pasos-como-funciona img {
+    margin: auto;
+    display: block;
 }
 
-.apoyo_div{
-    width: 17.3em;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
-
+/*
 #encuentraProfesor{
     margin-top: 3.5em;
     width: 100%;
