@@ -18,6 +18,7 @@ body{
     text-transform: uppercase;
     color: #353638;
     font-weight: bold;
+    padding: 0;
 }
 
 .navbar-toggler{
@@ -39,22 +40,6 @@ ul{
     padding: 0;
 }
 /*
-#nav{
-    display: flex;
-    box-shadow: 0px 3px 6px #0000001C;
-    top:0;
-    height: 3em;
-    margin: 0;
-    padding: 3em 8.6em 2em 8.6em;
-}
-
-#logo-container{
-    height: 50%;
-}
-
-.navbar-brand{
-    height: 80%;
-}
 button{
     width: 18em;
     height: 2.6em;
