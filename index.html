@@ -104,85 +104,54 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 pasos-como-funciona">
-                    <img src="assets/img/paso1.svg" alt="Paso 1" width="277">
-                    <h4>Primaria</h4>
-                    <p>Todas las materias</p>
-                </div>
-                <div class="col-lg-4 col-md-6 pasos-como-funciona">
-                    <img src="assets/img/paso2.svg" alt="Paso 2" width="277">
-                    <h4>Secundaria</h4>
-                    <p>Lengua, Matemática, Biología, Historia, Ética, Geografía, entre otros</p>
-                </div>
-                <div class="col-lg-4 col-md-6 pasos-como-funciona">
-                    <img src="assets/img/paso3.svg" alt="Paso 2" width="277">
-                    <h4>Universidad</h4>
-                    <p>Ingresos (CBC) y Carreras de Psicología, Medicina e Ingeniería</p>
+                <div class="row mx-auto my-auto">
+                    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-md-4">
+                                    <div class="card card-body">
+                                        <img src="assets/img/book.svg"  width="277" class="book-light">
+                                        <h4>Primaria</h4>
+                                        <p class="text-center">Todas las materias</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card card-body">
+                                        <img src="assets/img/book.svg"  width="277" class="book-light">
+                                        <h4>Secundaria</h4>
+                                        <p class="text-center">Lengua, Matemática, Biología, Historia, Ética, Geografía, entre otros</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4">
+                                    <div class="card card-body book-dark">
+                                        <img src="assets/img/book-dark.svg"  width="277" class="book-light">
+                                        <h4>Universidad</h4>
+                                        <p class="text-center">Ingresos (CBC) y Carreras de Psicología, Medicina e Ingeniería</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="container text-center my-3">
-        <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
-        <div class="row mx-auto my-auto">
-            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-                <div class="carousel-inner w-100" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=2">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=3">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=5">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-fluid" src="http://placehold.it/380?text=6">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <h5 class="mt-2">Advances one slide at a time</h5>
-    </div>
+
+
+
 
 
 <!-- Principio del widget de enlace de Calendly -->

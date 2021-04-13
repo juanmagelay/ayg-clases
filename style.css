@@ -112,6 +112,7 @@ ul {
 /*Clases de apoyo*/
 #clasesApoyo, #encuentraProfesor, #testimonials, #igIntro {
     padding-top: 80px;
+    margin: 0 5px;
 }
 
 #clasesApoyo p, #encuentraProfesor p {
@@ -170,6 +171,22 @@ ul {
   transform: translateX(0);
 }
 
+.book-light {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 10px 0;
+}
+
+.book-dark {
+    background-color: #003169;
+    color: #fff;
+}
+
+.book-dark h4 {
+    color: #fff;
+}
 
 /*Testimonials*/
 /*
