@@ -222,3 +222,65 @@ footer {
 #footer{
     padding-bottom: 1em;
 }
+
+
+/*Help page*/
+#banner {
+    background-image: url("/assets/img/background.png");
+    background-repeat: repeat;
+    height: 220px;
+  }
+  #banner .container {
+    color: #fff;
+    padding: 70px 60px;
+  }
+  #question {
+    padding: 30px;
+    padding-top: 60px;
+  }
+  .accordion-button:focus,
+  .accordion-button:not(.collapsed) {
+    background-color: #0abbb5;
+    color: #fff;
+  }
+  #contacto {
+    padding-top: 60px;
+  }
+  .box-formulario {
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  .formulario input,
+  .formulario textarea,
+  .formulario select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  .formulario label {
+    padding-bottom: 5px;
+  }
+  .formulario input.boton-enviar {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #08ccc5;
+    border: 1px solid #05a8a3;
+    color: rgb(250, 250, 250);
+    font: 18px "Lato", sans-serif;
+    font-weight: 500;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  .formulario input.boton-enviar:hover {
+    color: #05a8a3;
+    background-color: #fff;
+  }
