@@ -110,7 +110,7 @@ ul {
 
 
 /*Clases de apoyo*/
-#clasesApoyo, #encuentraProfesor, #testimonials, #igIntro {
+#clasesApoyo, #encuentraProfesor, #testimonials, #igIntro, footer {
     padding-top: 80px;
     margin: 0 5px;
 }
@@ -188,55 +188,37 @@ ul {
     color: #fff;
 }
 
-/*Testimonials*/
-/*
-#carouselTestimonials {
-    width: 60%;
-}
-
-#carouselTestimonials button {
-    top: 50%;
-    transform: translateY(-50%);
-}
-*/
 
 /*instagram*/
-/*
-#instagram{
-    background: #F1F9FF 0% 0% no-repeat padding-box;
+#igContainer {
+    margin-left: -15px;
 }
 
-#post{
-    display: flex;
-    justify-content: space-between;
+#secondPost, #thirdPost {
+    display: none;
 }
 
-.ig_post{
-    width: 17.4em;
-    height: 17.8em;
-    margin: 5em 0 10em 0;
+@media (min-width: 768px) {
+    #secondPost, #thirdPost {
+        display: block;
+    }
 }
-*/
 
 
 /*Footer*/
-/*
-footer{
-    background: #256EA3 0% 0% no-repeat padding-box;
-    padding: 5em 8em 5em 8em;
-    color:#fff;
+footer {
+    color:#353638;
+    font-size: x-small;
+    text-align: center;
+}
+
+#brandingText {
+    color:#353638;
+    font-size: x-small;
+    text-align: left;
 }
 
 
-#footerArriba{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-bottom:solid 1px white;
+#footer{
     padding-bottom: 1em;
 }
-
-#footerArriba1{
-    width: 40%;
-}
-*/
